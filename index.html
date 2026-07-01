@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0QTVDS1KS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-P0QTVDS1KS');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- GOOGLE SITE VERIFICATION -->
+    <meta name="google-site-verification" content="XYZ123YOURCODEHERE..." />
+
+    <title>Gem Tender bidding and consultancy | Government Tender & GeM Portal Consultant India</title>
+    <!-- Premium Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #0f2c59; /* Corporate Navy Dark Blue */
+            --secondary: #ff6b00; /* Energetic Safety Orange */
+            --accent: #1e4f94;
+            --light-bg: #f4f7fa;
+            --dark-text: #22252a;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #fff;
+            color: var(--dark-text);
+        }
+
+        /* Top Mini Header */
+        .top-bar {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 8px 5%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            flex-wrap: wrap;
+        }
+        .top-bar a { color: #fff; text-decoration: none; margin-left: 15px;}
+
+        /* Main Navigation */
+        header {
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: var(--primary);
+            text-transform: uppercase;
+        }
+        .logo span { color: var(--secondary); }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--dark-text);
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: var(--secondary); }
+
+        /* Pro Hero Banner Section */
+        .hero {
+            background: linear-gradient(rgba(15, 44, 89, 0.9), rgba(15, 44, 89, 0.85)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1500&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 5% 120px 5%;
+            text-align: center;
+        }
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; font-weight: 800; line-height: 1.2; }
+        .hero p { font-size: 1.3rem; max-width: 700px; margin: 0 auto 30px auto; color: #e0e6ed; }
+        
+        /* Buttons */
+        .btn {
+            padding: 12px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+        .btn-primary { background: var(--secondary); color: white; }
+        .btn-primary:hover { background: #e05e00; transform: translateY(-2px); }
+
+        /* Trust Stats Bar */
+        .stats-bar {
+            max-width: 1100px;
+            margin: -50px auto 50px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+        .stat-item h3 { font-size: 2.2rem; color: var(--secondary); margin-bottom: 5px; }
+        .stat-item p { color: #666; font-size: 0.95rem; font-weight: 600; }
+
+        /* Core Content Sections */
+        .section { padding: 80px 5%; }
+        .bg-light { background-color: var(--light-bg); }
+        .section-header { text-align: center; margin-bottom: 50px; }
+        .section-header h2 { font-size: 2.2rem; color: var(--primary); margin-bottom: 15px; position: relative; }
+        .section-header p { color: #666; font-size: 1.1rem; }
+
+        /* About Company Styles */
+        .about-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+        .about-text h3 { color: var(--secondary); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+        .about-text h2 { color: var(--primary); font-size: 2.2rem; margin-bottom: 20px; font-weight: 800; }
+        .about-text p { color: #555; line-height: 1.7; font-size: 1.05rem; margin-bottom: 20px; text-align: justify; }
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 25px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+        }
+        .about-feat-item { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--primary); font-size: 0.95rem; }
+        .about-feat-item i { color: var(--secondary); font-size: 1.1rem; }
+        .about-visual {
+            background: var(--primary);
+            color: white;
+            padding: 40px;
+            border-radius: 8px;
+            border-left: 5px solid var(--secondary);
+            box-shadow: 0 10px 25px rgba(15, 44, 89, 0.15);
+            position: sticky;
+            top: 100px;
+        }
+        .about-visual h4 { font-size: 1.4rem; margin-bottom: 15px; color: #fff; }
+        .about-visual p { color: #cbd5e1; font-size: 1rem; line-height: 1.6; margin-bottom: 15px; text-align: justify; }
+
+        /* Dynamic Grid Layout for Services */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 6px;
+            border-top: 4px solid var(--primary);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.1); border-top-color: var(--secondary); }
+        .card i { font-size: 2.5rem; color: var(--secondary); margin-bottom: 20px; }
+        .card h3 { margin-bottom: 15px; color: var(--primary); font-size: 1.3rem; }
+        .card ul { list-style: none; }
+        .card ul li { margin-bottom: 10px; color: #555; position: relative; padding-left: 20px;}
+        .card ul li::before { content: "→"; position: absolute; left: 0; color: var(--secondary); font-weight: bold; }
+
+        /* Authority Grid CSS */
+        .authority-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: 0 auto 40px auto;
+        }
+        .authority-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            font-weight: 600;
+            color: var(--primary);
+            border: 1px solid #e1e8ed;
+        }
+        .authority-box i { color: var(--secondary); margin-right: 8px; }
+
+        /* Contact & Forms Grid */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 50px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .contact-details h3 { font-size: 1.8rem; color: var(--primary); margin-bottom: 20px; }
+        .contact-method { display: flex; align-items: center; margin-bottom: 25px; }
+        .contact-method i { font-size: 1.5rem; color: white; background: var(--primary); padding: 15px; border-radius: 50%; margin-right: 20px; width: 55px; text-align: center; }
+        .contact-method p { margin: 0; font-size: 1.05rem; }
+        
+        /* Modern Lead capture form */
+        .consultation-form { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .form-group { margin-bottom: 20px; }
+        .form-group input, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+        .form-group textarea { height: 120px; resize: none; }
+        .form-submit-btn { width: 100%; background: var(--primary); color: white; border: none; padding: 14px; font-size: 1.1rem; font-weight: bold; border-radius: 4px; cursor: pointer; transition: background 0.3s; }
+        .form-submit-btn:hover { background: var(--accent); }
+
+        /* Footer */
+        footer { background: #111; color: #aaa; text-align: center; padding: 30px; font-size: 0.95rem; }
+
+        /* Floating Modern Sticky WhatsApp Widget */
+        .whatsapp-sticky {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            padding: 15px 22px;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            text-decoration: none;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 9999;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-sticky:hover { transform: scale(1.05); background: #20ba5a; }
+
+        /* Responsive Mobile optimization */
+        @media (max-width: 768px) {
+            .top-bar { display: none; }
+            header { flex-direction: column; gap: 15px; text-align: center; }
+            .hero h1 { font-size: 2rem; }
+            .about-container { grid-template-columns: 1fr; gap: 30px; }
+            .contact-container { grid-template-columns: 1fr; }
+            .stats-bar { grid-template-columns: 1fr 1fr; gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top contact ticker bar -->
+    <div class="top-bar">
+        <div><i class="fas fa-envelope"></i> Tendergem42@gmail.com | 📍 Ahmedabad, Gujarat</div>
+        <div>
+            <a href="tel:+919726407267"><i class="fas fa-phone-alt"></i> +91 9726407267</a>
+        </div>
+    </div>
+
+    <!-- Main Corporate Brand Header Nav -->
+    <header>
+        <div class="logo"> Gem Tender bidding and <span>consultancy</span></div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#authorities">Authority Tenders</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section Area -->
+    <div class="hero" id="home">
+        <h1>Empowering Your Business with <br>Government Tenders & GeM Portal</h1>
+        <p>India's leading consultancy delivering 100% compliant documentation, error-free technical bids, and seamless e-procurement onboarding services.</p>
+        <a href="#contact" class="btn btn-primary">Request Free Consultation</a>
+    </div>
+
+    <!-- Live Trust Track Counters -->
+    <div class="stats-bar">
+        <div class="stat-item">
+            <h3>100%</h3>
+            <p>Error-Free Filing</p>
+        </div>
+        <div class="stat-item">
+            <h3>Central/State</h3>
+            <p>Pan-India Support</p>
+        </div>
+        <div class="stat-item">
+            <h3>Class 3</h3>
+            <p>Secure DSC Integration</p>
+        </div>
+    </div>
+
+    <!-- About Company Section -->
+    <div class="section" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h3>Who We Are</h3>
+                <h2>Your Trusted Partner in Government Procurement</h2>
+                <p><strong>Gem Tender Bidding and Consultancy</strong> is a leading tender consultancy company in India, Established in 2026, specializing in Government Tender Consulting, GeM Registration Services, eTendering Solutions, and bid management support for businesses across multiple industries. We help startups, MSMEs, manufacturers, contractors, traders, and service providers successfully participate in government and private tenders with complete end-to-end assistance.</p>
+                <p>With a team of experienced tender experts, Gem Tender Bidding and Consultancy provides professional support for Tender Submission, GeM Portal Registration, Digital Signature Certificate (DSC), MSME/Udyam Registration, ISO Certification, Vendor Registration, Bid Documentation, and Tender Information Services. Our goal is to simplify the tendering process and help businesses increase their chances of winning contracts through accurate documentation, compliance support, and strategic bidding guidance.</p>
+                
+                <div class="about-features">
+                    <div class="about-feat-item"><i class="fas fa-check-circle"></i> Tender Submission</div>
+                    <div class="about-feat-item"><i class="fas fa-check-circle"></i> GeM Registration</div>
+                    <div class="about-feat-item"><i class="fas fa-check-circle"></i> Class 3 DSC Support</div>
+                    <div class="about-feat-item"><i class="fas fa-check-circle"></i> MSME/Udyam Setup</div>
+                    <div class="about-feat-item"><i class="fas fa-check-circle"></i> ISO Certification</div>
+                    <div class="about-feat-item"><i class="fas fa-check-circle"></i> Vendor Registration</div>
+                </div>
+            </div>
+            
+            <div class="about-visual">
+                <h4>Navigating Complex Bidding</h4>
+                <p>At Gem Tender Bidding and Consultancy, we understand that government procurement and eTendering processes can be complex and time-consuming. That’s why we offer a structured and transparent approach to tender consultancy, ensuring timely submission, proper eligibility compliance, and complete technical support throughout the bidding process.</p>
+                <p>Whether it is Central Government Tenders, State Government Tenders, PSU Tenders, Municipal Tenders, or GeM Marketplace opportunities, we help businesses navigate every stage with confidence.</p>
+                <p>We are committed to delivering reliable, result-oriented, and affordable tender consulting services that help businesses expand their market reach and generate new growth opportunities through public procurement. Our customer-focused approach, industry expertise, and dedicated support have made Gem Tender Bidding and Consultancy a trusted name in the Tender consulting industry in India.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Service Offerings Grid Layout -->
+    <div class="section bg-light" id="services">
+        <div class="section-header">
+            <h2>Our Core Expertise</h2>
+            <p>End-to-End Handholding for High-Value Corporate Contracts & Portals</p>
+        </div>
+        
+        <div class="grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>1) GeM Portal Services</h3>
+                <ul>
+                    <li><strong>Vendor Registration:</strong> Profile mapping, creation & complete identity verification.</li>
+                    <li><strong>OEM Dashboard Activation:</strong> Crucial assessment setup specifically engineered for manufacturers.</li>
+                    <li><strong>Product Cataloging:</strong> Strategic item listing alongside matching dynamic HSN tracking codes.</li>
+                </ul>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <i class="fas fa-file-signature"></i>
+                <h3>2) Tender Bidding & Tech Support</h3>
+                <ul>
+                    <li><strong>Submission Engine:</strong> Accurate real-time bid presentation across Central & State systems.</li>
+                    <li><strong>BOQ Analysis:</strong> In-depth financial pricing assessments tailored for high success rates.</li>
+                    <li><strong>Technical Bid Validation:</strong> Zero-rejection double check architecture for your critical paperwork.</li>
+                </ul>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <i class="fas fa-network-wired"></i>
+                <h3>3) Portal Onboarding & DSC</h3>
+                <ul>
+                    <li><strong>CPPP Systems:</strong> Direct entry routes into the Central Public Procurement Portal.</li>
+                    <li><strong>Department Onboarding:</strong> Seamless registration with premium bodies like Railways, PWD, NHAI, & BSNL.</li>
+                    <li><strong>Class 3 DSC Support:</strong> Instant assistance setting up high-grade digital signature certificates.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW SECTION: Authority Tenders List -->
+    <div class="section" id="authorities" style="background-color: #fff;">
+        <div class="section-header">
+            <h2>Major Live Authority Tenders</h2>
+            <p>We provide complete consultancy and error-free bidding for all major Indian government departments.</p>
+        </div>
+        
+        <div class="authority-grid">
+            <div class="authority-box"><i class="fas fa-train"></i> Indian Railways Tenders</div>
+            <div class="authority-box"><i class="fas fa-road"></i> NHAI & MORTH Tenders</div>
+            <div class="authority-box"><i class="fas fa-building"></i> CPWD / PWD Tenders</div>
+            <div class="authority-box"><i class="fas fa-shield-alt"></i> Military Engineer Services (MES)</div>
+            <div class="authority-box"><i class="fas fa-bolt"></i> NTPC / NHPC Power Tenders</div>
+            <div class="authority-box"><i class="fas fa-phone-alt"></i> BSNL / MTNL Telecom Tenders</div>
+            <div class="authority-box"><i class="fas fa-tint"></i> Jal Jeevan Mission / Water Boards</div>
+            <div class="authority-box"><i class="fas fa-city"></i> Municipal Corporations Tenders</div>
+        </div>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <p style="margin-bottom: 20px; color: #555;">Sari authorities ki complete tracking aur update dekhne ke liye click karein:</p>
+            <a href="file:///C:/Users/Baldev/OneDrive/Desktop/AUTHORITIES%20(2).html" target="_blank" class="btn btn-primary">
+                <i class="fas fa-external-link-alt"></i> View Full Authority Tenders List
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact & Consultation Lead Box -->
+    <div class="section bg-light" id="contact">
+        <div class="contact-container">
+            <div class="contact-details">
+                <h3>Let's Secure Your Next Big Government Project</h3>
+                <p style="color:#666; margin-bottom: 30px;">Get in touch directly with our Ahmedabad operations command center for elite consultancy advice.</p>
+                
+                <div class="contact-method">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <div>
+                        <h4 style="color:var(--primary)">Corporate Address</h4>
+                        <p>B-119 Murlidhar 3, Near Jay Bholenath Sales, Isanpur, Ahmedabad – 382440, Gujarat, India.</p>
+                    </div>
+                </div>
+
+                <div class="contact-method">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <div>
+                        <h4 style="color:var(--primary)">Contact Us</h4>
+                        <p>+91 9726407267<br>+91 7201007267</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Client Contact Query Form -->
+            <div class="consultation-form">
+                <h4 style="margin-bottom: 20px; color: var(--primary); font-size: 1.3rem;">Request Quote / Call-Back</h4>
+                <form action="mailto:Tendergem42@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <input type="text" name="Client Name" placeholder="Your Full Name / Company Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="Phone Number" placeholder="Active Mobile Number" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="Requirement Details" placeholder="Describe what tender portal or registration service you require..." required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit-btn">Submit Request Via Email</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Copyright Block -->
+    <footer>
+        <p>&copy; 2026 Gem Tender bidding and consultancy. All Rights Reserved. | Managed by Corporate Procurement Networks.</p>
+    </footer>
+
+    <!-- Direct Quick Chat Floating Widget (WhatsApp) -->
+    <a href="https://wa.me/919726407267?text=Hello%20Baldev%20Ji,%20I%20visited%20your%20Corporate%20Portal%20and%20want%20to%20consult%20regarding%20an%20upcoming%20Government%20Tender/GeM%20service." class="whatsapp-sticky" target="_blank">
+        <i class="fab fa-whatsapp" style="font-size: 1.4rem;"></i> Chat with Expert
+    </a>
+
+</body>
+</html>
